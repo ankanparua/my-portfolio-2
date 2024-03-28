@@ -1,0 +1,122 @@
+.top-container{
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.title-text{
+    text-align: center;
+}
+.div{
+    display: block;
+}
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+h1{
+    color: #66bfbf;
+    font-size: 5.625rem;
+    font-family: "sacramento", cursive;
+    margin: 50px auto 0 auto;
+}
+h2{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+
+}
+.pro{
+    text-decoration: underline;
+}
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.profile-pic{
+    border-radius: 50%;
+    width: 180px;
+    ;height: 180px;
+}
+.profile{
+    padding-top: 100px;
+}
+.intro{
+     margin: auto;
+     width: 30%;
+     
+}
+p{
+    line-height: 2;
+}
+hr{
+    border: dotted #eaf6f6 6px;
+    width: 4%;
+    margin: 100px auto;
+    border-bottom: none;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr  1fr;
+    grid-template-rows: repeat(1, 1fr) ;
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+
+}
+h3 {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+}
+.chilli-img{
+    width: 50%;
+    margin-left: 30px;
+}
+.btn{
+    background: #11cdd4;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+}
+.bottom-container{
+    background: #66bfbf;
+    padding: 50px 0 20px;
+
+}
+.copyright{
+    color: white;
+    font-size: 0.75rem;
+    padding: 20px 0;
+
+}
+a {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.middle-container{
+    margin: 100px 0;
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
